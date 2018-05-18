@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+    <ul class="nav masthead-nav">
+        <li class="active"><a href="/kgqa-demo">首页</a></li>
+        <li><a href="/kgqa-demo/temp" target="_blank">问题模版</a></li>
+        <li><a href="https://github.com/Light-City" target="_blank">MyGithub</a></li>
+        <li><a href="#" id="changeback" style="color:#ed5736;"><span class="glyphicon glyphicon-thumbs-up"
+                                                                     aria-hidden="true"></span>ChangeBg(切换背景)</a></li>
+    </ul>
+{% endblock %}
+
+{% block content_KG  %}
+    <div class="inner cover">
+        <h1 class="cover-heading">一个简单而高效的高血压知识图谱</h1>
+        <div class="search d2">
+            <form action="/kgqa-demo/content" method="post">
+                {% csrf_token %}
+                <div class="row">
+                          <span>
+                            <input class="balloon" id="state" type="text" placeholder="请输入你的问题..." name="q"/><label
+                                  for="state">你的问题</label>
+                          </span>
+                    <button type="submit" class="btn btn-lg btn-default btn-outline">提交</button>
+                </div>
+
+            </form>
+        </div>
+        <p class="lead">
+            <a href="http://v3.bootcss.com/examples/cover/" class="btn btn-lg btn-default btn-outline" target="_blank">了解更多</a>
+        </p>
+    </div>
+
+{% endblock %}

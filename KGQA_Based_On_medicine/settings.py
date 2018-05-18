@@ -136,6 +136,6 @@ from kgqa.KB_query import question2sparql
 # TODO 连接Fuseki服务器。
 fuseki = jena_sparql_endpoint.JenaFuseki()
 # TODO 初始化自然语言到SPARQL查询的模块，参数是外部词典列表。
-q2s = question2sparql.Question2Sparql(['E:/project_code_2018/GitHub/KGQA-Based-On-medicine/kgqa/KB_query/dict/jibing_pos_name.txt',
-                                       'E:/project_code_2018/GitHub/KGQA-Based-On-medicine/kgqa/KB_query/dict/drug_pos_name.txt',
-                                       'E:/project_code_2018/GitHub/KGQA-Based-On-medicine/kgqa/KB_query/dict/symptom_pos.txt'])
+q2s = question2sparql.Question2Sparql(['D:/KGQA-Based-On-medicine/kgqa/KB_query/dict/jibing_pos_name.txt',
+                                       'D:/KGQA-Based-On-medicine/kgqa/KB_query/dict/drug_pos_name.txt',
+                                       'D:/KGQA-Based-On-medicine/kgqa/KB_query/dict/symptom_pos.txt'])

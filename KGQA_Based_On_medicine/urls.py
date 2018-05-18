@@ -22,4 +22,6 @@ import sys
 from kgqa import views
 urlpatterns = [
     url(r'^kgqa-demo$', views.search_post),
+    url(r'^kgqa-demo/content$', views.content_post),
+    url(r'^kgqa-demo/temp$', views.temp_post),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
