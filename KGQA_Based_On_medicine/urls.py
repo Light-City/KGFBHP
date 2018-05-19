@@ -21,7 +21,8 @@ from django.conf.urls.static import static
 import sys
 from kgqa import views
 urlpatterns = [
-    url(r'^kgqa-demo$', views.search_post),
-    url(r'^kgqa-demo/content$', views.content_post),
-    url(r'^kgqa-demo/temp$', views.temp_post),
+    url(r'^kg$', views.index_post),
+    url(r'^kg/search$', views.search_post),
+    url(r'^kg/search/content$', views.content_post),
+    url(r'^kg/search/temp$', views.temp_post),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

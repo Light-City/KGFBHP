@@ -3,6 +3,8 @@ import sys
 from kgqa.KB_query import query_main
 
 # Create your views here.
+def index_post(request):
+    return render(request, "index.html")
 
 def search_post(request):
     return render(request, "post_from_base.html")
@@ -19,3 +21,4 @@ def content_post(request):
 
 def temp_post(request):
     return render(request, "temp_from_base.html")
+

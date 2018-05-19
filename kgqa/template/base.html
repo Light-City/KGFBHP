@@ -79,11 +79,19 @@
         var imageNum=1;
         $("#changeback").click(function(){
             imageNum++;
-            if(imageNum==4){
+            if(imageNum==6){
                 imageNum=1;
             }
             console.log(imageNum);
             switch(imageNum){
+                case 5:
+                $("body,html").css("background-image","url('/static/img/school.jpg')");
+                event.preventDefault();
+                break;
+                case 4:
+                $("body,html").css("background-image","url('/static/img/water.jpg')");
+                event.preventDefault();
+                break;
                 case 3:
                 $("body,html").css({
                     "backgroundColor":"#333","background-image":"none"}
