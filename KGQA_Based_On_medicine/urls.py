@@ -25,4 +25,6 @@ urlpatterns = [
     url(r'^kg/search$', views.search_post),
     url(r'^kg/search/content$', views.content_post),
     url(r'^kg/search/temp$', views.temp_post),
+    url(r'^kg/graph$', views.cyNeo4j_post),
+    url(r'^kg/graph/json$', views.ghJson_post),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

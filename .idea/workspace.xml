@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77f899d-ee4e-4a75-a378-bae814fac722" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kgqa/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/canvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/school.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/water.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kgqa/template/cytoscape_neo4j.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kgqa/template/graph_json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/cytoscape.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.11.2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kgqa/template/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/kgqa/template/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache_configuration/fuseki_conf.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache_configuration/kgdrug.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache_configuration/rules.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kgqa/template/con_from_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/kgqa/template/con_from_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kgqa/template/post_from_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/kgqa/template/post_from_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kgqa/template/temp_from_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/kgqa/template/temp_from_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kgqa/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kgqa/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,41 +27,59 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/KGQA_Based_On_medicine$query_main.coverage" NAME="query_main Coverage Results" MODIFIED="1526570570467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kgqa/KB_query" />
+    <SUITE FILE_PATH="coverage/KGQA_Based_On_medicine$word_tagging.coverage" NAME="word_tagging Coverage Results" MODIFIED="1527345313945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kgqa/KB_query" />
+    <SUITE FILE_PATH="coverage/KGQA_Based_On_medicine$asd.coverage" NAME="asd Coverage Results" MODIFIED="1527345392636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KGQA_Based_On_medicine$test.coverage" NAME="test Coverage Results" MODIFIED="1527343003874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="graph_json.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kgqa/template/graph_json.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cytoscape_neo4j.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kgqa/template/cytoscape_neo4j.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="22" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kgqa/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="con_from_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kgqa/template/con_from_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="-36">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="canvas.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/canvas.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kgqa/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp_from_base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kgqa/template/temp_from_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="e#333#355#0#HTML" expanded="true" />
-                <element signature="e#603#627#0#HTML" expanded="true" />
-                <element signature="e#766#789#0#HTML" expanded="true" />
-                <element signature="e#829#852#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="393">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -69,39 +87,50 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kgqa/template/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="-504">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_from_base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kgqa/template/post_from_base.html">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kgqa/template/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="108">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
-                <element signature="e#560#566#1#HTML" expanded="true" />
-                <element signature="e#566#572#0#HTML" expanded="true" />
-                <element signature="e#362#367#0#HTML" expanded="true" />
-                <element signature="e#3617#3622#0#HTML" expanded="true" />
-                <element signature="e#3640#3646#0#HTML" expanded="true" />
-                <element signature="e#803#809#0#HTML" expanded="true" />
-                <element signature="e#809#815#0#HTML" expanded="true" />
-                <element signature="e#842#848#0#HTML" expanded="true" />
-                <element signature="e#980#986#0#HTML" expanded="true" />
-                <element signature="e#987#993#0#HTML" expanded="true" />
-                <element signature="e#998#1004#0#HTML" expanded="true" />
+                <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kgqa/KB_query/query_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="e#646#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kg_neo.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kg_neo.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -112,8 +141,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -124,8 +154,15 @@
       <find>in</find>
       <find>input</find>
       <find>了解更多</find>
-      <find>了解</find>
       <find>kgqa</find>
+      <find>Yso</find>
+      <find>了解</find>
+      <find>match</find>
+      <find>apply</find>
+      <find>Rule</find>
+      <find>post</find>
+      <find>buildNodes</find>
+      <find>DATABASE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,9 +174,6 @@
       <list>
         <option value="$PROJECT_DIR$/KGQA_Based_On_medicine/wsgi.py" />
         <option value="$PROJECT_DIR$/kgqa/KB_query/question2sparql.py" />
-        <option value="$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py" />
-        <option value="$PROJECT_DIR$/kgqa/KB_query/word_tagging.py" />
-        <option value="$PROJECT_DIR$/KGQA_Based_On_medicine/settings.py" />
         <option value="$PROJECT_DIR$/static/css/cover.css" />
         <option value="$PROJECT_DIR$/static/css/input_cs.css" />
         <option value="$PROJECT_DIR$/kgqa/template/content.html" />
@@ -149,14 +183,24 @@
         <option value="$PROJECT_DIR$/kgqa/template/cav_beau.html" />
         <option value="$PROJECT_DIR$/kgqa/template/canvas_c.html" />
         <option value="$PROJECT_DIR$/kgqa/template/base.html" />
-        <option value="$PROJECT_DIR$/kgqa/views.py" />
-        <option value="$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py" />
-        <option value="$PROJECT_DIR$/kgqa/template/temp_from_base.html" />
-        <option value="$PROJECT_DIR$/kgqa/template/post_from_base.html" />
-        <option value="$PROJECT_DIR$/kgqa/template/con_from_base.html" />
         <option value="$PROJECT_DIR$/static/js/canvas.js" />
         <option value="$PROJECT_DIR$/static/css/canvas.css" />
         <option value="$PROJECT_DIR$/kgqa/template/index.html" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/kgqa/KB_query/jena_sparql_endpoint.py" />
+        <option value="$PROJECT_DIR$/kgqa/KB_query/word_tagging.py" />
+        <option value="$PROJECT_DIR$/asd.py" />
+        <option value="$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py" />
+        <option value="$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py" />
+        <option value="$PROJECT_DIR$/kgqa/template/graph_json.html" />
+        <option value="$PROJECT_DIR$/kgqa/template/cytoscape_neo4j.html" />
+        <option value="$PROJECT_DIR$/kgqa/template/con_from_base.html" />
+        <option value="$PROJECT_DIR$/kgqa/template/post_from_base.html" />
+        <option value="$PROJECT_DIR$/kgqa/template/temp_from_base.html" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/KGQA_Based_On_medicine/settings.py" />
+        <option value="$PROJECT_DIR$/kg_neo.json" />
+        <option value="$PROJECT_DIR$/kgqa/views.py" />
       </list>
     </option>
   </component>
@@ -170,10 +214,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="17" />
-    <option name="width" value="1619" />
-    <option name="height" value="889" />
+    <option name="x" value="581" />
+    <option name="y" value="205" />
+    <option name="width" value="1297" />
+    <option name="height" value="703" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -208,30 +252,6 @@
               <item name="KGQA-Based-On-medicine" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="KGQA-Based-On-medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KGQA-Based-On-medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KGQA-Based-On-medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KGQA-Based-On-medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KGQA-Based-On-medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KGQA-Based-On-medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KGQA-Based-On-medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KGQA-Based-On-medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,13 +265,13 @@
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\KGQA-Based-On-medicine\static\js" />
       <recent name="D:\KGQA-Based-On-medicine\static\img" />
       <recent name="D:\KGQA-Based-On-medicine\static\css" />
-      <recent name="D:\KGQA-Based-On-medicine\static\js" />
       <recent name="D:\KGQA-Based-On-medicine\static\fonts" />
     </key>
   </component>
@@ -267,7 +287,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.query_main">
+  <component name="RunManager" selected="Python.asd">
+    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KGQA_Based_On_medicine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="query_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KGQA_Based_On_medicine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,6 +321,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kgqa/KB_query/query_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KGQA_Based_On_medicine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="word_tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KGQA_Based_On_medicine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kgqa/KB_query" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kgqa/KB_query/word_tagging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,9 +389,15 @@
     <list>
       <item itemvalue="Django server.KGQA_Based_On_medicine" />
       <item itemvalue="Python.query_main" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.asd" />
+      <item itemvalue="Python.word_tagging" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.asd" />
+        <item itemvalue="Python.word_tagging" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.query_main" />
       </list>
     </recent_temporary>
@@ -337,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526615391022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改页面">
+      <created>1526745746718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526745746718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,13 +447,12 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50268096" side_tool="true" weight="0.3266762" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32809773" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.6119829" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49731904" visible="true" weight="0.3266762" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.42225394" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49731904" visible="true" weight="0.14550643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117292225" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.26961485" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -374,6 +463,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26961485" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,194 +478,139 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda/Lib/site-packages/django/utils/datastructures.py">
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="396">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#27#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/django/template/context.py">
+    <entry file="file://$PROJECT_DIR$/kgqa/template/cav_beau.html" />
+    <entry file="file://$PROJECT_DIR$/kgqa/template/canvas_c.html" />
+    <entry file="file://$PROJECT_DIR$/kgqa/template/index" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9828">
-          <caret line="274" column="23" lean-forward="true" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+        <state relative-caret-position="148">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/query_main.py">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="148">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/settings.py">
+    <entry file="file://$PROJECT_DIR$/static/admin/fonts/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="140" column="103" lean-forward="true" selection-start-line="140" selection-start-column="103" selection-end-line="140" selection-end-column="103" />
-        </state>
+        <state relative-caret-position="-1512" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/query_main.py">
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/dict/symptom_name.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/word_tagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question2sparql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="-4428">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question_temp.py" />
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/word_tagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question2sparql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/dict/csv2txt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/settings.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        <state relative-caret-position="-851" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1391" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/dict/jibing_pos_name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1310655275/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="4" column="531" selection-start-line="4" selection-start-column="531" selection-end-line="4" selection-end-column="531" />
+        <state relative-caret-position="101484">
+          <caret line="2819" column="8" selection-start-line="2819" selection-start-column="8" selection-end-line="2819" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css" />
-    <entry file="file://D:/Anaconda/Lib/site-packages/django/template/backends/django.py">
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/dict/symptom_pos.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        <state relative-caret-position="19836">
+          <caret line="551" column="7" selection-start-line="551" selection-start-column="7" selection-end-line="551" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/django/template/context.py">
+    <entry file="file://D:/Anaconda/Lib/site-packages/SPARQLWrapper/Wrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9828">
-          <caret line="274" column="23" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+        <state relative-caret-position="-4139">
+          <caret line="458" column="47" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/django/utils/datastructures.py">
+    <entry file="file://D:/Anaconda/Lib/site-packages/SPARQLWrapper/SmartWrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="261">
+          <caret line="230" column="48" selection-start-line="230" selection-start-column="48" selection-end-line="230" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/template/post.html" />
-    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/query_main.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1310655275/PyQt5/QtCore/QVariant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="225">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/template/content.html" />
-    <entry file="file://$PROJECT_DIR$/kgqa/template/temp.html" />
-    <entry file="file://$PROJECT_DIR$/kgqa/template/post1.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/qarticles.min.js" />
-    <entry file="file://$PROJECT_DIR$/kgqa/template/cav_beau.html" />
-    <entry file="file://$PROJECT_DIR$/kgqa/template/canvas_c.html" />
-    <entry file="file://$PROJECT_DIR$/kgqa/template/index">
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/refo/patterns.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="233">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/refo/match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/input_cs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -586,123 +621,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/index.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/input_cs.css">
+    <entry file="file://$PROJECT_DIR$/static/css/canvas.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="603">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/views.py">
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/dict/drug_name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/dict/csv2txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question2sparql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="32" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#52#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asd.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/cytoscape.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="483" selection-start-line="16" selection-start-column="483" selection-end-line="16" selection-end-column="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/py2neo/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="540" column="6" selection-start-line="540" selection-start-column="6" selection-end-line="540" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/template/post_from_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/template/temp_from_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/jena_sparql_endpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#78#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/question_drug_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="e#27#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/word_tagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#76#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/KB_query/query_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kg_neo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KGQA_Based_On_medicine/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="261">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="e#646#678#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/template/temp_from_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#333#355#0#HTML" expanded="true" />
-            <element signature="e#603#627#0#HTML" expanded="true" />
-            <element signature="e#766#789#0#HTML" expanded="true" />
-            <element signature="e#829#852#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kgqa/template/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/fontawesome-all.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/template/con_from_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/hand-point-right.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kgqa/template/post_from_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/canvas.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="-504">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kgqa/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="393">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/template/cytoscape_neo4j.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="22" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/template/graph_json.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/template/con_from_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kgqa/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
-            <element signature="e#560#566#1#HTML" expanded="true" />
-            <element signature="e#566#572#0#HTML" expanded="true" />
-            <element signature="e#362#367#0#HTML" expanded="true" />
-            <element signature="e#3617#3622#0#HTML" expanded="true" />
-            <element signature="e#3640#3646#0#HTML" expanded="true" />
-            <element signature="e#803#809#0#HTML" expanded="true" />
-            <element signature="e#809#815#0#HTML" expanded="true" />
-            <element signature="e#842#848#0#HTML" expanded="true" />
-            <element signature="e#980#986#0#HTML" expanded="true" />
-            <element signature="e#987#993#0#HTML" expanded="true" />
-            <element signature="e#998#1004#0#HTML" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

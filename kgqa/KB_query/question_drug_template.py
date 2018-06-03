@@ -45,7 +45,6 @@ class Rule(object):
             matches.extend(sentence[i:j])
 
         return self.action(matches), self.condition_num
-
 class QuestionSet:
     def __init__(self):
         pass
